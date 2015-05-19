@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>LIsto para jugar???</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/fer.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header" align="center">
+    <h1>Encabezado</h1><img src="images/pacman-ghosts.jpg" width="193" height="76">
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+     <a  href="#juego" data-role="button" data-inline="true" data-icon="arrow-r" data-iconpos="right" id="jugar">
+        
+        JUGAR
+        
+        </a>	
+  </div>
+
+  <div data-role="footer">
+    <h1>@Maria Fernanda Molina Sevila</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ 
+ <!-- Segunda -->
+ <div data-role="page" id="juego" align="center" >   
+  <div data-role="header">
+    <h1>Que empiece el juego!!</h1><img src="images/maxresdefault.jpg" width="245" height="77">
+  </div>
+
+  <div data-role="main" class="ui-content" >
+    <div id="azul" style="background-color:#09F; width:50%; height:250px; float:left;">
+   
+    </div>
+    <div id="verde" style="background-color:#0C6; width:50%; height:250px; float:right;">
+   
+    </div>
+     <div id="amarillo" style="background-color:#F00; width:50%; height:250px; float:right;">
+   
+    </div>
+     <div id="rojo" style="background-color:#FF0; width:50%; height:250px; float:right;">
+   
+    </div>
+    
+  </div>
+  
+  
+  
+  
+  <div data-role="footer" id="jugado" align="center">
+    <h1>Tus tiros han sido</h1>
+  </div>
+ </div>  
+ <!-- Segunda -->
+
+ </body>
+</html> 
